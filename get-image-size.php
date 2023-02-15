@@ -2,6 +2,7 @@
 $path = '2.jpg';
 
 $img = getimagesize($path);
+list($width, $hight) = $img;
 echo '<pre>';
 print_r($img);
 
